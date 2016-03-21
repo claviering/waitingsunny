@@ -1,6 +1,6 @@
 #ICP>a:link
 {
-    text-decoration:none;font-size:small;
+    text-decoration:none;
 }
 #ICP>a
 {
@@ -9,5 +9,6 @@
 #ICP
 {
   bottom:1%;margin-left:45%;
-  position:absolute;
+  position:absolute;font-size:11px;
+
 }
