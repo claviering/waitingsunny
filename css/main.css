@@ -1,10 +1,10 @@
-#one
+.box
 {
     border-style:solid;
     border-width:2px;
     border-color:#787878;
     width:20%;
-    position:absolute;
     top:5%;
     padding-left:1%;
+    margin-bottom:1px;
 }
