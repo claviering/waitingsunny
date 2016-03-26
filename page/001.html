@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>为什么要有预编译头? #include "stdafx.h"</title>
+    <style>
+        .cen
+        {
+            text-align:left;
+            margin-right:50%;
+            margin-top:5%;
+            line-height:2;
+        }
+        #External
+        {
+            margin-left:0px;
+            font-size:2.5em;
+            margin-top:3%;
+            margin-bottom:1%;
+        }
+        span
+        {
+            color:red;
+            font-size:2em;
+        }
+        div
+        {
+            margin-left:20%;
+        }
+    </style>
+</head>
+<body>
+   <div>
+       <p class="cen">新手都不知道为什么要有预编译头，高手告诉你是必须的。为什么呢？...... <br><br><span>总的来说是为了减少编译时间</span>。头文件的编译原理，就是把自己的所有内容copy到相应#include语句处。<br><br>头文件的出现给写程序带来很大方便，但如果程序由很多个模块组成，所有模块的使用某一个头文件，那么编译就会浪费很多时间。<br><br>为了解决这个问题，预编译技术就出现了。预编译头是程序设计时把头文件编译为中间格式，以节约编译器反复编译头文件的开销。这样每个模块中用到的头文件只编译一次，速度就快了。
+        <br>
+        <p id="External">External links</p>
+        <a href="http://blog.csdn.net/btooth/article/details/980251">External linkshttp://blog.csdn.net/btooth/article/details/980251</a><br>
+        <a href="https://zh.wikipedia.org/wiki/%E9%A2%84%E7%BC%96%E8%AF%91%E5%A4%B4">https://zh.wikipedia.org/wiki/%E9%A2%84%E7%BC%96%E8%AF%91%E5%A4%B4</a><br>
+        <a href="http://www.cnblogs.com/sfqh/p/3389876.html">http://www.cnblogs.com/sfqh/p/3389876.html</a><br>
+        </p>
+   </div>
+</body>
+</html>
