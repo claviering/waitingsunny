@@ -9,7 +9,8 @@
 #ICP
 {
   margin-left:45%;
-  position:absolute;font-size:11px;
-  bottom:0px
+  position:fixed;
+  font-size:11px;
+  bottom:0;
 
 }
