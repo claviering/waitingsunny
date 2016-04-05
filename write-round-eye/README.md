@@ -1,1 +1,1 @@
-! [Alt text](/eyes.png?raw=true "eyes")
+! [Alt text](eyes.png?raw=true "eyes")
