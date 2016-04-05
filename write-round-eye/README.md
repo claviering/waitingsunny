@@ -1,1 +1,3 @@
-! [Alt text](eyes.png?raw=true "eyes")
+<p align="center">
+    <img src="eyes.png" alt="Coding Style Conventions and Standards">
+</p>
