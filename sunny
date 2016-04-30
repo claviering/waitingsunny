@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my notes</title>
+        <link rel="stylesheet" type="text/css" href="../css/sunny.css" />
+    </head>
+    <body>
+    <div class="one">
+        <div class="two">
+            <h3 align="center">how to open *deb in kali linux</h3>
+            <p>sudo dpkg -i *deb; sudo apt-get install -f</p>
+        </div>
+        <div class="two">
+            <h3 align="center">how to install sogou input</h3>
+            <p>download sogoupinyin.deb and install it<br>switch the language to chinese and go to Fcitx to set the Input Method<br>turn back to the language of English</p>
+        </div>
+        <div class="two">
+            <h3 align="center">install wego in kali linux</h3>
+            <p>
+                <p class="one">STEP1: install GO language.</p>
+                sudo apt-get install golang <br>
+                If it don't work<br>
+                run sudo add-apt-repository ppa:gophers/go;sudo apt-get update;sudo apt-get install golang<br>
+                <p class="one">STEP2: setting environment variables of GO</p>
+                vim ~/,bashrc //add the follwoing in the file<br>
+                export GOROOT=$HOME/go <br>
+                export GOBIN=$GOROOT/bin <br>
+                export GOARCH=386 <br>
+                export GOOS=linux <br>
+                export PATH=$GOROOT/bin:$PATH <br>
+                export GOPATH=$HOME/workspace/Go<br>
+                <p class="one">STEP3:make the setting work</p>
+                source ~/.bashrc<br>
+                <p class="one">STEP4:install wego</p><br>
+                mkdir workspace;go get github.com/schachmat/wego<br>
+                <p class="one">STEP5：run wego</p>
+                cd workspace/bin;./wego<br>
+                <p class="one">STEP6:configure the file of ~/.wegorc when you run wego at first time</p>
+                go to worldweatheronline.com to get a free API key and you can change the city you live,default is New York<br>
+                <p class="one">STEP7:run wego</p>
+                wego --help for help<br>
+            </p>
+        <div class="two">
+            <h3>sk@ubuntu:~# sudo ifconfig wlan0 up SIOCSIFFLAGS: Operation not possible due to RF-kill</h3> 
+           <p>sudo rfkill unblock wifi</p> 
+        </div>
+        <div class="two">
+            <h3>ipconfig command not find</h3>
+            <p>/sbin/ipconfig</p>
+        </div>
+    </div>
+    </body>
+</html>
